@@ -1,0 +1,30 @@
+#main-container {
+  padding: 2% 10%;
+}
+
+.accordion {
+  width: 100% !important;
+}
+
+#navbar {
+  top: 0px;
+  position: sticky;
+  z-index: 100;
+}
+
+
+/* Small Devices, Tablets */
+/* @media only screen and (min-width : 768px) {
+  body {
+    background-color: red;
+  }
+} */
+
+
+#carousel > div > div:nth-child(2) > div > button.slick-arrow.slick-next {
+  display: none;
+}
+
+#eapps-instagram-feed-1 > a {
+  display: none;
+}
